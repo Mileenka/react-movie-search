@@ -1,0 +1,63 @@
+.form {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 5rem;
+  margin-top: 1.5rem;
+}
+
+.search-movie {
+  width: 20rem;
+  padding: 0.4rem;
+  margin-top: 1.5rem;
+  margin-left: 6rem;
+  background-color: rgb(223, 187, 9);
+  font-size: 1rem;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  line-height: 1.2rem;
+  letter-spacing: 1px;
+  outline: none;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  box-shadow:
+    rgba(0, 0, 0, 0.16) 0px 3px 6px,
+    rgba(0, 0, 0, 0.993) 0px 3px 6px;
+}
+
+.search-movie::placeholder {
+  color: rgba(0, 0, 0, 0.564);
+}
+
+.BsSearchHeart {
+  position: relative;
+  top: 0.5rem;
+  left: -2rem;
+  font-size: 1.5rem;
+  color: rgb(0, 0, 0);
+  z-index: 1;
+}
+
+.error-message {
+  position: relative;
+  top: 1rem;
+  font-family: "Josefin Sans", sans-serif;
+  color: rgb(244, 116, 116);
+}
+
+.search-btn {
+  width: 5rem;
+  height: 1.5rem;
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+  background-color: rgb(223, 187, 9);
+  font-family: "Josefin Sans", sans-serif;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-btn:hover {
+  background-color: rgb(255, 216, 20);
+}
